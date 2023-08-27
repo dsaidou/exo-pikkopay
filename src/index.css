@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+  font-family: 'Poppins', Arial, Helvetica Neue, Helvetica, sans-serif;
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* FORM CONTAINER */
+
+.payform-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 550px;
+  background: linear-gradient( #fafeec, #edfbee);
+}
+
+.header-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 0 0 30px 30px;
+  height: 150px;
+  background-color: #0f0b26;
+  color: #fff;
+}
+
+.header-title{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.header-title #title{
+  color: #fef0ae;
+}
+
+.header-form .material-symbols-outlined{
+  font-size: 2rem;
+}
+
+.icon-selection > .fa-brands{
+  margin-left: 1rem;
+  font-size: 1.7rem;
+}
+
+.fa-chevron-left{
+  font-size: 1.4rem;
+
+}
+.button {
+  cursor: pointer;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border: 1px solid transparent;
+  padding: 0.9rem;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  color: #333;
+  width: 300px;
+  background: linear-gradient(45deg, #e1ff26, #ffcf26);
+}
+
+.button:hover{
+  background: linear-gradient(45deg, #e2ff26db, #ffcf26db);
+}
+
+
+.button .material-symbols-sharp {
+  transform: translateY(-3px);
+  margin-right: 0.5rem;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.pay-form {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 75%;
+  padding: 1rem 1rem 0 1rem;
+
+}
+
+.pay-form > div {
+  margin-top: 2.5rem;
+}
+
+.pay-form label {
+  color: #333;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.pay-form > .button {
+  align-self: center;
+  margin: 1rem;
+}
+
+.input-container{
+  margin-top: 1rem;
+}
+
+#name-input{
+  border-radius: 3px;
+  outline: none;
+  width: 95%;
+  border: none;
+}
+.paygreen-pan-frame, .paygreen-cvv-frame, .paygreen-exp-frame, #name-input{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0 0.5rem;
+  border: #D1D1D1 solid 1px !important;
+  box-shadow: none;
+}
+
+.paygreen-pan-frame:hover, .paygreen-cvv-frame:hover, .paygreen-exp-frame:hover, #name-input:hover {
+  border-bottom: #0f0b26 solid 1px !important;
+}
+
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line > div {
+  max-width: 48%;
+}
+
+#paygreen-reuse-checkbox-container {
+  margin-top: 2.5rem;
+  height: 60px;
+}
+
+.loader{
+  background-color: #333;
+}
+
+.fa-credit-card{
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  font-size: 1rem;
+  transform: translateY(-50%);
+  color: #D2D1D1;
+}
+
+@media screen and (min-width: 400px) {
+  .payform-container{
+    margin: 1rem;
+    border-radius: 50px;
+    padding: 0 1rem;
+  }
+
+  .header-form{
+    border-radius: 0;
+    height: 150px;
+    background-color: transparent;
+    color: #000;
+  }
+
+  .header-title #title{
+    color: #000;
+  }
+}
