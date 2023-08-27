@@ -77,7 +77,7 @@ function App() {
         <div className="header-form">
 
           <div className="header-title">
-            <i class="fa-solid fa-chevron-left"></i>
+            <i className="fa-solid fa-chevron-left"></i>
             <h1>Payez <span id="title">en ligne</span></h1>
             <span className="material-symbols-outlined">verified_user</span>
           </div>
