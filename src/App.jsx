@@ -81,6 +81,7 @@ function App() {
             <h1>Payez <span id="title">en ligne</span></h1>
             <span className="material-symbols-outlined">verified_user</span>
           </div>
+          
           <div className="icon-selection">
             <i className="fa-brands fa-cc-mastercard"></i>
             <i className="fa-brands fa-cc-visa"></i>
@@ -124,9 +125,10 @@ function App() {
 
           <div id="paygreen-reuse-checkbox-container"></div>
 
-         <button id="payButton" className="button" onClick={()=>handlePay()}>
-          <span className="material-symbols-sharp">lock</span>
-          Payer 1€
+          <button id="payButton" className="button" onClick={()=>handlePay()}>
+
+            <span className="material-symbols-sharp">lock</span>
+            Payer 1€
           </button>
 
         </div>

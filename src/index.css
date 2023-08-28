@@ -170,6 +170,8 @@ body {
   color: #D2D1D1;
 }
 
+/* RESPONSIVE */
+
 @media screen and (min-width: 400px) {
   .payform-container{
     margin: 1rem;

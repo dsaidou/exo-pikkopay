@@ -6,6 +6,8 @@
     justify-content: center;
 }
 
+/* LOADER */
+
  .spinner{
     background: linear-gradient(45deg, #e1ff26, #ffcf26); 
     height: 120px;
